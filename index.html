@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice | Eco-Products</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3CY51J1LFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3CY51J1LFV');
+</script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">✨</span>
+                <span>CHO<span class="logo-highlight">ICE</span></span>
+            </div>
+            <a href="#" target="_blank" class="connect-btn">
+                Каталог <span class="icon">↗</span>
+            </a>
+        </header>
+
+        <div class="tabs">
+            <div class="tab-nav">
+                <button class="tab-btn tab-btn_first-child active" data-tab="form">Замовити</button>
+                <button class="tab-btn shadow" data-tab="product"><div class="arrow"></div>Детально</button>
+                <button class="tab-btn" data-tab="rewiev">Відгуки</button>
+                <button class="tab-btn tab-btn_last-child" data-tab="contacts">Контакти</button>
+            </div>
+
+            <div class="tab-content active" id="form">
+                <h2 class="section-title">Замовити комплекс</h2>
+                <form id="contact-form"  method="post" class="flex-1 flex-col">
+                    <div class="form-group">
+                        <label for="name">Ім'я</label>
+                        <input type="text" name="name" id="name" class="form-control error" placeholder="Ім'я" minlength="2"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="number" class="form-control error" placeholder="+38 (0XX) XX XX XXX "
+                            minlength="10" required>
+                    </div>
+
+                    <div class="form-group flex-1 flex-col">
+                        <label for="message">Доставка</label>
+                        <textarea id="message" name="textarea" class="form-control" placeholder="Вкажіть адресу доставки"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        Замовити <span class="icon">→</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="tab-content" id="product">
+                                <div class="product-image">
+                    <img src="./img/grain.webp" alt="Quantum X9 Product">
+                    <div class="image-overlay">
+                        <span>Пророщені зерна злаків</span>
+                    </div>
+                </div>
+                <div class="product-image">
+                    <img src="./img/ok.webp" alt="Quantum X9 Product">
+                    <div class="image-overlay">
+                        <span>Кальцій, магній, кремній, цинк</span>
+                    </div>
+                </div>
+                <div class="product-image">
+                    <img src="./img/omega.webp" alt="Quantum X9 Product">
+                    <div class="image-overlay">
+                        <span>Omega complex +</span>
+                    </div>
+                </div>
+
+                <p class="product-description">
+                    Функціональне харчування дітям з 3-х років, вагітним жінкам і годувальницям, людям похилого віку, спортсменам і тим, хто
+                    проживає в регіонах із поганою екологією.
+                </p>
+                <p class="product-description">
+                    Профілактика остеопорозу. Зміцнення кісток, зубної емалі, покращення стану волосся й нігтів.
+                </p>
+                <p class="product-description">
+                    Для сприяння здорового розвитку та функціонування мозку, нервової, серцево-судинної, імунної систем, зниження рівня
+                    холестерину в крові.
+                </p>
+
+                <div class="features">
+                    <div class="feature active">
+                        <span class="feature-icon"><img src="./img/grain.webp" alt="Пророщені зерна"></span>
+                        <span class="feature-text">Пророщені Зерна</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon"><img src="./img/ok.webp" alt="OK"></span>
+                        <span class="feature-text">O.K.</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon"><img src="./img/omega.webp" alt=""></span>
+                        <span class="feature-text">Omega complex +</span>
+                    </div>
+                </div>
+
+                <a href="#" target="_blank" class="learn-more">
+                    Дивитися каталог <span class="icon">→</span>
+                </a>
+            </div>
+
+            <div class="tab-content" id="rewiev">
+                <div class="product-header">
+                    <h2 class="section-title">Задоволені клієнти</h2>
+                </div>
+                <div class="slider_container">                 
+                    <div class="slider">
+                        <div class="slides">
+                                <img alt="comment" src="./img/comment1.webp" />
+                                <img alt="comment" src="./img/comment2.webp" />                    
+                                <img alt="comment" src="./img/commeny2-2.webp" />                    
+                                <img alt="comment" src="./img/comment3.webp" />                    
+                                <img alt="comment" src="./img/comment4.webp" />                    
+                                <img alt="comment" src="./img/comment5.webp" />                    
+                        </div>
+                        <div class="dots"></div>
+                        <button class="prev">
+                            <svg height="40" viewBox="0 -960 960 960" width="40" fill="#fff">
+                                <path d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z" />
+                            </svg>
+                        </button>
+                        <button class="next">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40" fill="#fff">
+                                <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="space"></div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="contacts">
+                <h2 class="section-title">Contact Us</h2>
+
+                <div class="contact-cards flex-1">
+                    <div class="contact-card">
+                        <div class="contact-icon-wrapper">
+                            <span class="contact-icon">📍</span>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Локація</h3>
+                            <p><a href="https://maps.app.goo.gl/J1qMHhQUGK7PsoeA7" target="_blank">м.Суми вул.
+                                    Воскресенська, 15</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon-wrapper">
+                            <span class="contact-icon">📞</span>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон</h3>
+                            <p><a href="tel:+38(068)8146339">+38 (068) 81 46 339</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon-wrapper">
+                            <span class="contact-icon">✉️</span>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p><a href="mailto:kolesniktv91@gmail.com">kolesniktv91@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon-wrapper">
+                            <span class="contact-icon">📸</span>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <p><a href="https://www.instagram.com/kolesnik_tatiana_/?igsh=MTZ2eGQ1bGR1bWV6cw%3D%3D"
+                                    target="_blank">@kolesnik_tatiana_</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://maps.app.goo.gl/J1qMHhQUGK7PsoeA7" target="_blank" class="map-link">
+                        Показати на мапі <span class="icon">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Choice. All rights reserved.
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
