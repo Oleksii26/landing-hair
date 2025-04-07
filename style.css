@@ -15,7 +15,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #000000e8, #1e293bcc), url(../img/beautiful-hair.webp);
+    background: linear-gradient(135deg, #000000e8, #1e293bcc), url(beautiful-hair.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
